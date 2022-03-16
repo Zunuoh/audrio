@@ -23,8 +23,68 @@ body{
 
 .mainscreenContainer{
   background-color: #F4F5FE;
-  padding: 20px;
+  padding: 30px;
   min-height: 100vh;
+}
+
+.headerContainer{
+  display: flex;
+}
+
+.headerSearchBoxContainer{
+  margin-left: 50px;
+}
+
+.headerArrowContainer{
+  align-items: center;
+  margin-top: 10px;
+}
+
+input{
+  width:500px;
+  height:40px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.mainscreenPictureBanner{
+  /* width:90%; */
+  background-image: url(../src/images/manFacingBuilding.jpeg);
+  height: 200px;
+  border-radius: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.firstBannerButton{
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.secondBannerButton{
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+}
+
+.pictureBannerFirstText{
+  margin-top:5px; 
+  font-size:30px; 
+  font-weight:bold
+}
+
+.pictureBannerSecondText{
+  font-size:30px;
+  font-weight:bold;
+  margin-top:-10px;
 }
 
 
@@ -34,5 +94,34 @@ body{
     background-color: white;
     padding: 5px;
     min-height: 100vh;
+  }
+
+  input{
+    width:400px;
+    height:40px;
+    border: none;
+    border-radius: 14px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .pictureBannerFirstText{
+    margin-top:15px; 
+    font-size:18px; 
+    font-weight:bold
+  }
+  
+  .pictureBannerSecondText{
+    font-size:18px;
+    font-weight:bold
+  }
+
+  .mainscreenPictureBanner{
+    /* width:90%; */
+    background-image: url(../src/images/manFacingBuilding.jpeg);
+    height: 160px;
+    border-radius: 14px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin-left: 20px;
   }
 }
