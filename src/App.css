@@ -41,7 +41,7 @@ body{
 }
 
 input{
-  width:500px;
+  width:290%;
   height:40px;
   border: none;
   border-radius: 14px;
@@ -49,13 +49,15 @@ input{
 }
 
 .mainscreenPictureBanner{
-  /* width:90%; */
   background-image: url(../src/images/manFacingBuilding.jpeg);
-  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
   border-radius: 14px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px;
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 .firstBannerButton{
@@ -86,6 +88,64 @@ input{
   font-weight:bold;
   margin-top:-10px;
 }
+
+.musicPlayerContainer{
+  /* background-color: aqua; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  width: 100%;
+  height: 130px;
+  padding:30px
+}
+
+.musicPlayerFirstContainer{
+  display: flex;
+}
+
+.musicPlayerFirstDiv{
+  flex: 1;
+  /* background-color: #F4F5FE; */
+  display: flex;
+}
+
+.musicPlayerSecondDiv{
+  /* background-color: antiquewhite; */
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.musicPlayerThirdDiv{
+  /* background-color: aquamarine; */
+  flex: 1;
+  
+}
+
+.musicPlayerFirstIcon{
+  margin-left: 10px;
+}
+
+.musicPlayerSecondIcon{
+  margin-left: 10px;
+}
+
+.musicPlayerThirdIcon{
+  margin-left: 160px;
+}
+
+.musicPlayerSecondPart{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+/* .musicPlayerSecondIcon{
+  margin-left: 300px;
+} */
+
+
+
+
 
 
 
@@ -124,4 +184,41 @@ input{
     padding: 20px;
     margin-left: 20px;
   }
+
+  .musicPlayerFirstDiv{
+    flex: 1;
+    background-color: #F4F5FE;
+    display: flex;
+  }
+  
+  .musicPlayerSecondDiv{
+    /* background-color: antiquewhite; */
+    flex: 3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .musicPlayerThirdDiv{
+    /* background-color: aquamarine; */
+    flex: 1;
+    
+  }
+
+  .musicPlayerFirstIcon{
+    margin-left: 10px;
+  }
+
+  .musicPlayerSecondIcon{
+    margin-left: 10px;
+  }
+
+  .musicPlayerThirdIcon{
+    margin-left: 40px;
+  }
+
+
+
+
+
+
 }
